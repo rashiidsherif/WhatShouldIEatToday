@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon foreground: a bowl with a leaf over it.
+  Everything sits inside the 72x72 safe zone (18..90 on this 108 canvas) so no
+  launcher mask can clip it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Leaf body -->
+    <path
+        android:fillColor="#FFB7D3B2"
+        android:pathData="M54,25 C65.5,32 67.5,44 54,54 C40.5,44 42.5,32 54,25 Z" />
+
+    <!-- Leaf midrib -->
+    <path
+        android:strokeColor="#FF3A5640"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,29 L54,51" />
+
+    <!-- Bowl rim -->
+    <path
+        android:fillColor="#FFF7F6F2"
+        android:pathData="M25,57.5 L83,57.5 A2.75,2.75 0 0 1 83,63 L25,63 A2.75,2.75 0 0 1 25,57.5 Z" />
+
+    <!-- Bowl body -->
+    <path
+        android:fillColor="#FFF7F6F2"
+        android:pathData="M29,63 L79,63 A25,25 0 0 1 29,63 Z" />
+
+    <!-- Highlight, to stop the bowl reading as a flat blob -->
+    <path
+        android:fillColor="#FFD9E3D6"
+        android:pathData="M37,70 A17,17 0 0 0 47,81 A21,21 0 0 1 37,70 Z" />
+</vector>

@@ -1,0 +1,42 @@
+*.iml
+.gradle
+/.gradle
+.kotlin
+/local.properties
+local.properties
+/.idea
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/app/build
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# ---------------------------------------------------------------------------
+# Personal data. None of this belongs in a public repository.
+#
+#  - tools/lidl/data/  receipt exports, kitchen database backups pulled off the
+#                      phone, and screenshots of a real device
+#  - .lidl_state.json  OAuth PKCE state and any Lidl tokens
+# ---------------------------------------------------------------------------
+tools/lidl/data/
+tools/lidl/.lidl_state.json
+tools/lidl/ca_bundle.pem
+
+# Belt and braces: never commit databases, APKs or raw receipt dumps from
+# anywhere in the tree, whatever they are called.
+*.db
+*.db-wal
+*.db-shm
+*.apk
+*.aab
+*.keystore
+*.jks
+lidl_receipts*.json

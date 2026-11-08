@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Themed-icon layer for Android 13+. One flat silhouette; the launcher tints it
+  to match the user's wallpaper, so colour here is ignored.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M54,25 C65.5,32 67.5,44 54,54 C40.5,44 42.5,32 54,25 Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M25,57.5 L83,57.5 A2.75,2.75 0 0 1 83,63 L25,63 A2.75,2.75 0 0 1 25,57.5 Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M29,63 L79,63 A25,25 0 0 1 29,63 Z" />
+</vector>

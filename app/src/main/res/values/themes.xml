@@ -1,0 +1,11 @@
+<resources>
+    <!--
+      Compose supplies the real theming (see ui/theme/Theme.kt). This only has
+      to give the Activity window a sane, action-bar-free starting point, so it
+      inherits from the platform theme rather than Material Components.
+    -->
+    <style name="Theme.WhatCanICook" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/kitchen_background</item>
+    </style>
+</resources>
